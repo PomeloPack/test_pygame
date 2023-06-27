@@ -13,6 +13,7 @@ game_continue = True
     
 while game_continue:
     for event in pygame.event.get(): # every move or mouse/key click or any other stuff is called event in pygame
+        print(event)
         if event.type == pygame.QUIT:
             game_continue = False
 
